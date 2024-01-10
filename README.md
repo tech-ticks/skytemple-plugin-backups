@@ -12,5 +12,5 @@ Auto-saves work like regular saves and will overwrite your current ROM. Enable "
 Click the "Open Backup Folder" button to open the folder where backups are stored.
 
 ## Installation
-1. Download the latest release from the [releases page](https://github.com/tech-ticks/skytemple-plugin-backups/releases)
+1. Download the latest release from the [releases page](https://github.com/tech-ticks/skytemple-plugin-backups/releases) (download the ".whl" file).
 2. Refer to this [Wiki page](https://wiki.skytemple.org/index.php/Plugin) for installation instructions.
