@@ -2,7 +2,7 @@
 A plugin that adds automatic backups and an auto-save feature to SkyTemple.
 
 ## How to use
-Load a ROM in SkyTemple, then click the button on the top right of the window.
+Load a ROM in SkyTemple, click the button on the top right of the window, then click "Backup settings...".
 This will open a menu with the following options:
 - **Auto-save interval**: The interval at which the ROM will be automatically saved in minutes. Set to 0 to disable.
 Auto-saves work like regular saves and will overwrite your current ROM. Enable "Backup on Save" to automatically create a backup of your ROM before it is overwritten.
