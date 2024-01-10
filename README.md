@@ -1,18 +1,16 @@
-# SkyTemple Example Plugin
-This is an example plugin for [SkyTemple](https://skytemple.org).
+# SkyTemple Backup Plugin
+A plugin that adds automatic backups and an auto-save feature to SkyTemple.
 
-To install this with a regular SkyTemple Python-based installation
-("development setup"), just install this via `pip`. 
-It will then load automatically. This also works in editable mode.
+## How to use
+Load a ROM in SkyTemple, then click the button on the top right of the window.
+This will open a menu with the following options:
+- **Auto-save interval**: The interval at which the ROM will be automatically saved in minutes. Set to 0 to disable.
+Auto-saves work like regular saves and will overwrite your current ROM. Enable "Backup on Save" to automatically create a backup of your ROM before it is overwritten.
+- **Backup on Save**: If enabled, a backup of the ROM will be created before it is overwritten by a manual or auto-save.
+- **Number of Backups to Keep**: The number of backups to keep. If the number of backups exceeds this number, the oldest backup will be deleted. Note that each backup takes about 100MB of disk space (or more if you have many custom assets).
 
-To install this with the SkyTemple Flatpak or Mac/Windows distributions,
-see our [wiki](https://wiki.skytemple.org/index.php/Plugin).
+Click the "Open Backup Folder" button to open the folder where backups are stored.
 
-## What this plugin does
-This plugin adds a new `Pokémon Spawns` entry to the item tree
-that has an entry for each Pokémon to edit their spawns on every
-dungeon floor.
-
-## How to write your own plugin
-See the [`docs/plugin_dev.rst`](https://github.com/SkyTemple/skytemple/blob/master/docs/plugin_dev.rst)
-file in the SkyTemple repository for more information.
+## Installation
+1. Download the latest release from the [releases page](https://github.com/tech-ticks/skytemple-plugin-backups/releases)
+2. Refer to this [Wiki page](https://wiki.skytemple.org/index.php/Plugin) for installation instructions.

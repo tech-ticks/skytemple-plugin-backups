@@ -3,12 +3,12 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "skytemple_example_plugin"
-version = "1.6.0"
+name = "skytemple_plugin_backups"
+version = "0.1.0"
 authors = [
-    {name = "Marco 'Capypara' Köpcke", email = "hello@capypara.de"},
+    {name = "techticks", email = "techticksdev@gmail.com"},
 ]
-description = "An example plugin for SkyTemple."
+description = "A SkyTemple plugin that keeps automatic ROM backups."
 readme = "README.md"
 requires-python = ">=3.9"
 keywords = ["skytemple", "skytemple-plugin"]
@@ -26,4 +26,4 @@ dependencies = [
 ]
 
 [project.entry-points."skytemple.module"]
-example_plugin = "skytemple_example_plugin.module:ExamplePluginModule"
+backups_plugin = "skytemple_plugin_backups.module:BackupPluginModule"
